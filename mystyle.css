@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: fixed;
+    background: #007bff;
+    margin: 0;
+    float: left;
+}
+.box{
+    position: relative;
+    transform: translate(-50%, -50%);
+    top:150px;
+    left:50%;
+    height: 300px;
+    width: 300px;
+    background-image: url("tzuyu-my-wife.jpg");
+}
+.img {
+    width: 0;
+    height: 100%;
+    background-image: url("chou-tzuyu.jpg");
+    transition: 3s;
+}
+.box:hover .img{
+    width: 100%;
+}
+.text{
+    position: relative;
+    margin: 25px 50px;
+    width: 100%;
+    float: left;
+}
+.content-1, .content-2{
+    height: auto;
+    padding-bottom: 30px;
+    margin: 5px;
+    width: 480px;
+}
+.content-1{
+    float: left;
+    margin-left: 310px;
+    border-right: inset 1px;
+    border-left: inset 1px;
+    margin-right: 0;
+}
+.content-2{
+    margin-left: 0;
+    float: left;
+}
+a, h1, h4{
+    margin: 15px;
+}
